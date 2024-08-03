@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce4ec; /* Light pink background */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #f8bbd0; /* Slightly darker pink for calculator background */
+    padding: 20px;
+    width: 220px;
+}
+
+.display {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 2.5em;
+    text-align: right;
+    margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.button {
+    background-color: #f48fb1; /* Pink color for buttons */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.button:active {
+    background-color: #f06292; /* Darker pink when button is pressed */
+}
+
+.button.operator {
+    background-color: #ec407a; /* Different shade for operators */
+}
+
+.button.operator:active {
+    background-color: #d81b60; /* Darker shade for operators when pressed */
+}
+
+.button.zero {
+    width: 90px;
+}
